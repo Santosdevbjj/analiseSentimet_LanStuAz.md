@@ -1,4 +1,4 @@
-## O que é Análise de Sentimentos com AI Azure Language Studio 
+## O que é Análise de Sentimentos com Language Studio do Azure AI 
 
 ![Screenshot_20250529-130205](https://github.com/user-attachments/assets/557bf0a4-c90b-4cf9-914e-f44654f897a1)
 
