@@ -278,7 +278,7 @@ Desenvolvimento da autonomia e confiança das crianças ao interagirem com a tec
 4. Escalonamento: Expandir a aplicação para outras unidades da APAE e adaptar para diferentes faixas etárias e níveis de desenvolvimento.
 
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 
 
 
@@ -495,6 +495,140 @@ Implementar um sistema de progressão para acompanhar o desenvolvimento das cria
 
 
 Explorar a criação de vozes personalizadas para tornar a experiência ainda mais envolvente.  
+
+
+
+
+
+**Vamos elaborar um plano de aula** detalhado que integra o protótipo desenvolvido com o Azure Speech Studio e o Azure Language Studio, incorporando a funcionalidade de Análise de Sentimentos para **auxiliar no ensino de matemática básica e português para crianças da APAE.** 
+
+
+
+## 🎯 Objetivo da Aula
+
+Proporcionar uma experiência de aprendizado interativa e inclusiva, utilizando tecnologias de inteligência artificial para estimular o desenvolvimento cognitivo de crianças com necessidades especiais, focando em: 
+
+Operações matemáticas básicas: adição, subtração, multiplicação e divisão. 
+
+Conceitos de português: sinônimos e antônimos. 
+
+Expressão emocional e reconhecimento de sentimentos. 
+
+
+## ⏰ Duração
+
+Aproximadamente 60 minutos. 
+
+
+
+## 🧑‍🏫 Público-Alvo
+
+Crianças atendidas pela APAE, com idades entre 7 e 12 anos, com desenvolvimento mental atrasado. 
+
+
+
+## 🛠️ Recursos Necessários
+
+Computador ou tablet com acesso à internet. 
+
+Microfone e alto-falantes ou fones de ouvido. 
+
+Acesso ao Azure Speech Studio e ao Azure Language Studio. 
+
+Protótipo da aplicação interativa desenvolvido previamente. 
+
+
+
+## 📋 Estrutura da Aula
+
+1. Boas-vindas e Introdução (10 minutos)
+
+Cumprimente as crianças de forma calorosa. 
+
+Explique que a aula será uma brincadeira divertida com o "Amigo Virtual", que ajudará a aprender matemática e português. 
+
+Apresente o "Amigo Virtual" (personagem animado com voz gerada pelo Azure Speech Studio). 
+
+
+## 2. Atividade de Matemática (15 minutos)
+
+O "Amigo Virtual" faz perguntas simples, como: 
+
+"Quanto é 2 mais 3?" 
+
+"Quanto é 5 menos 2?" 
+
+
+A criança responde verbalmente. 
+
+Utilize o Speech-to-Text para transcrever a resposta. 
+
+Verifique a resposta e forneça feedback positivo ou encorajador. 
+
+
+## 3. Atividade de Português (15 minutos)
+
+O "Amigo Virtual" propõe desafios: 
+
+"Qual é o sinônimo de 'alegre'?" 
+
+"Qual é o antônimo de 'triste'?" 
+
+
+A criança responde verbalmente. 
+
+Utilize o Speech-to-Text para transcrever a resposta. 
+
+Verifique a resposta e forneça feedback apropriado. 
+
+
+## 4. Expressando Sentimentos (10 minutos)
+
+O "Amigo Virtual" pergunta: 
+
+"Como você está se sentindo hoje?" 
+
+
+A criança responde livremente. 
+
+Utilize a funcionalidade de Análise de Sentimentos do Azure Language Studio para identificar o sentimento expresso. 
+
+Forneça feedback empático, por exemplo: 
+
+"Fico feliz que você esteja se sentindo bem!" 
+
+"Sinto muito que você esteja triste. Estou aqui para ajudar!" 
+
+
+
+## 5. Encerramento e Feedback (10 minutos)
+
+Reforce os aprendizados do dia. 
+
+Pergunte o que as crianças mais gostaram. 
+
+Agradeça a participação e destaque que o "Amigo Virtual" estará disponível para futuras interações. 
+
+
+
+## 📈 Avaliação e Monitoramento
+
+Registre as respostas das crianças para acompanhar o progresso individual. 
+
+Utilize os dados da Análise de Sentimentos para entender o estado emocional das crianças ao longo do tempo. 
+
+Adapte as atividades futuras com base nos resultados observados. 
+
+
+
+## 🔗 Recursos Adicionais
+
+Guia de Análise de Sentimentos com Azure AI Language Studio 
+
+Documentação Oficial do Azure AI Text Analysis 
+
+
+
 
 
 
