@@ -1,4 +1,4 @@
-## Azure Speech Studio e o Azure Language Studio, projeto lúdico para ensino de matemática e português para crianças da APAE Belo Horizonte MG 
+## Azure Speech Studio e o Azure Language Studio, projeto lúdico para ensino de matemática e português para crianças da APAE Belo Horizonte MG. Implementando a funcionalidade de Analise de Sentimentos.
 
 
 ![Screenshot_20250529-161700](https://github.com/user-attachments/assets/14f4fc33-1d96-4ef7-8f78-c10ea9a2f8c5)
