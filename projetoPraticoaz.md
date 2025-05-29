@@ -264,8 +264,6 @@ Desenvolvimento da autonomia e confiança das crianças ao interagirem com a tec
 
 
 
-
-
 🚀 Próximos Passos
 
 1. Prototipagem: Desenvolver um protótipo da aplicação utilizando as ferramentas mencionadas. 
@@ -277,8 +275,227 @@ Desenvolvimento da autonomia e confiança das crianças ao interagirem com a tec
 3. Ajustes e Melhorias: Coletar feedbacks e realizar ajustes para melhor atender às necessidades das crianças. 
 
 
-4. Escalonamento: Expandir a aplicação para outras unidades da APAE e adaptar para diferentes faixas etárias e níveis de desenvolvimento. 
+4. Escalonamento: Expandir a aplicação para outras unidades da APAE e adaptar para diferentes faixas etárias e níveis de desenvolvimento.
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-.
+
+## Protótipo inicial.
+
+
+
+Vamos  criar  um protótipo interativo utilizando o Azure Speech Studio e o Azure Language Studio para **auxiliar no ensino de matemática básica e português para crianças da APAE BH.**
+
+Este protótipo será adaptado às necessidades específicas dessas crianças, proporcionando uma experiência lúdica e acessível.
+
+
+
+
+## 🧩 Etapa 1: Configuração do Ambiente no Azure
+
+
+
+## 1.1 Criar uma Conta no Azure
+
+
+Acesse o Portal do Azure e crie uma conta gratuita, caso ainda não possua. 
+
+
+
+## 1.2 Criar Recursos Necessários
+
+
+
+## Recurso de Fala:
+
+
+No portal do Azure, vá em "Criar um recurso" e selecione "Serviço de Fala".
+
+
+
+Escolha a região mais próxima (por exemplo, "Brasil Sul") e um nome identificador. 
+
+
+## Recurso de Linguagem:
+
+
+No portal do Azure, vá em "Criar um recurso" e selecione "Serviço de Linguagem".
+
+
+
+Configure conforme as necessidades do projeto. 
+
+
+## 🎙️ Etapa 2: Utilizando o Azure Speech Studio
+
+
+
+## 2.1 Acessar o Speech Studio
+
+
+
+Acesse o Azure Speech Studio e faça login com sua conta do Azure. 
+
+
+## 2.2 Criar Conteúdo de Áudio
+
+
+
+Utilize a ferramenta de Criação de Conteúdo de Áudio para converter texto em fala. 
+
+
+
+## Exemplo de Frase para Matemática:
+
+
+**Texto:** "Quanto é 2 mais 3?"
+
+
+Selecione a voz "Francisca" para português do Brasil.
+
+
+
+Ajuste a entonação e velocidade conforme necessário. 
+
+
+
+## Exemplo de Frase para Português:
+
+
+**Texto:** "Qual é o antônimo de 'feliz'?"
+
+
+
+Utilize a mesma voz e faça os ajustes necessários. 
+
+
+## 2.3 Exportar Áudio
+
+
+Após gerar o áudio, faça o download dos arquivos para utilização na aplicação. 
+
+
+
+**🧠 Etapa 3:** Utilizando o Azure Language Studio
+
+
+
+## 3.1 Acessar o Language Studio
+
+
+
+Acesse o Azure Language Studio e faça login com sua conta do Azure. 
+
+
+
+## 3.2 Criar Projeto de Compreensão de Linguagem
+
+
+
+Siga o Guia de Início Rápido para criar um projeto de compreensão de linguagem conversacional. 
+
+
+## 3.3 Definir Intenções e Entidades
+
+
+## Intenções:
+
+
+"Responder Operação de Adição"
+
+
+"Responder Antônimo" 
+
+
+
+## Entidades:
+
+
+Números (para operações matemáticas)
+
+
+Palavras (para sinônimos e antônimos) 
+
+
+## 3.4 Treinar e Publicar o Modelo
+
+
+Após definir as intenções e entidades, treine o modelo e publique-o para utilização na aplicação. 
+
+
+
+**🖥️ Etapa 4:** Desenvolver a Interface da Aplicação
+
+
+
+## 4.1 Escolher a Plataforma de Desenvolvimento
+
+
+Opte por uma plataforma que permita o desenvolvimento de interfaces acessíveis, como o Power Apps ou desenvolvimento web com HTML, CSS e JavaScript. 
+
+
+## 4.2 Integrar Funcionalidades
+
+
+#$ Reproduzir Áudio:
+
+
+Utilize os arquivos de áudio gerados no Speech Studio para apresentar as perguntas. 
+
+
+## Capturar Respostas:
+
+
+Implemente a funcionalidade de reconhecimento de fala para capturar as respostas das crianças. 
+
+
+## Processar Respostas:
+
+
+Envie as respostas capturadas para o modelo do Language Studio para análise e verificação. 
+
+## Fornecer Feedback:
+
+
+Com base na análise, forneça feedback positivo ou encorajador, utilizando novamente o recurso de conversão de texto em fala. 
+
+
+**📊 Etapa 5:**  Testar e Ajustar o Protótipo
+
+
+
+## 5.1 Realizar Testes com Usuários
+
+
+Apresente o protótipo para um grupo de crianças da APAE e observe a interação. 
+
+
+## 5.2 Coletar Feedback
+
+
+Converse com os educadores e terapeutas para obter insights sobre a eficácia e possíveis melhorias. 
+
+
+## 5.3 Implementar Melhorias
+
+
+Com base no feedback, ajuste a interface, entonação das vozes e complexidade das perguntas para melhor atender às necessidades das crianças. 
+
+
+## 🚀 Próximos Passos
+
+
+Expandir o conteúdo com mais operações matemáticas e vocabulário de português. 
+
+
+Implementar um sistema de progressão para acompanhar o desenvolvimento das crianças. 
+
+
+Explorar a criação de vozes personalizadas para tornar a experiência ainda mais envolvente.  
+
+
+
+
