@@ -140,11 +140,145 @@ O sistema retornará as entidades identificadas ou a análise de sentimento corr
 
 **Personalização de Voz:** A criação de vozes personalizadas permite que empresas desenvolvam identidades sonoras únicas, melhorando a experiência do usuário e reforçando a marca  .
 
-Processamento de Linguagem Natural: O Azure Language Studio integra técnicas avançadas de PLN, facilitando a análise e compreensão de grandes volumes de texto de forma eficiente  .
-
-
+**Processamento de Linguagem Natural:** O Azure Language Studio integra técnicas avançadas de PLN, facilitando a análise e compreensão de grandes volumes de texto de forma eficiente  .
 
 
 
  
+Está implementação irá usar o **Azure Speech Studio e o Azure Language Studio**, para atender crianças da **APAE - de Belo Horizonte MG - Associação de Pais e Amigos dos Excepcionais.**
 
+As crianças têm desenvolvimento mental atrasado, e necessitam ser estimuladas no seu dia a dia. 
+
+O que eu tenho em mente, é algo para **ensinar matemática da tabuada básica: adição, subtração, multiplicação e divisão.**
+
+E também **ensinar português: sinônimos,  antônimos.** Creio que isso será de imensa ajuda para as crianças da APAE. 
+
+
+
+## 🎯 Objetivo
+
+Criar uma aplicação interativa que utilize recursos de fala e linguagem natural para estimular o aprendizado de forma lúdica e acessível, considerando as necessidades específicas das crianças atendidas pela APAE. 
+
+
+
+## 🛠️ Ferramentas Utilizadas
+
+**Azure Speech Studio:** Para conversão de texto em fala (Text-to-Speech) e reconhecimento de fala (Speech-to-Text). 
+
+**Azure Language Studio:** Para compreensão de linguagem natural, identificação de sinônimos e antônimos. 
+
+
+
+## 🧩 Estrutura da Solução
+
+# 1. Módulo de Matemática
+
+**Funcionalidades:**
+
+Apresentação de operações matemáticas básicas com feedback auditivo. 
+
+Reconhecimento de respostas faladas pelas crianças. 
+
+
+## Implementação:
+
+**Azure Speech Studio:**
+
+Utilize o recurso de Text-to-Speech para converter enunciados como "Quanto é 2 mais 3?" em áudio. 
+
+Configure o Speech-to-Text para transcrever as respostas faladas pelas crianças. 
+
+
+## Lógica de Verificação:
+
+Compare a resposta transcrita com a resposta correta. 
+
+Forneça feedback positivo ou encorajador conforme a resposta. 
+
+
+## Exemplo de Fluxo:
+
+**1. O sistema diz:** "Quanto é 4 vezes 2?" 
+
+
+**2. A criança responde:** "Oito". 
+
+
+**3. O sistema reconhece a resposta e responde:** "Muito bem! 4 vezes 2 é igual a 8." 
+
+
+
+## 2. Módulo de Português
+
+# Funcionalidades:
+
+Apresentação de palavras para identificação de sinônimos e antônimos. 
+
+Feedback auditivo com explicações simples. 
+
+
+## Implementação:
+
+**Azure Language Studio:**
+
+Utilize o serviço de Compreensão de Linguagem Natural para identificar sinônimos e antônimos. 
+
+
+## Azure Speech Studio:
+
+Converta as instruções e feedbacks em áudio para facilitar a compreensão. 
+
+
+
+## Exemplo de Fluxo:
+
+**1. O sistema diz:** "Qual é o antônimo de 'feliz'?" 
+
+
+**2. A criança responde:** "Triste". 
+
+
+**3. O sistema reconhece a resposta e responde:** "Correto! O antônimo de 'feliz' é 'triste'." 
+
+
+
+## 🎨 Interface e Usabilidade
+
+Desenvolva uma interface com elementos visuais atrativos e botões grandes para facilitar a interação. 
+
+Utilize cores vivas e personagens animados para manter o engajamento das crianças. 
+
+Inclua opções de repetição de perguntas e dicas para auxiliar no aprendizado. 
+
+
+
+
+
+📈 Benefícios Esperados
+
+Estimulação cognitiva através de atividades interativas. 
+
+Melhoria na compreensão de conceitos básicos de matemática e português. 
+
+Desenvolvimento da autonomia e confiança das crianças ao interagirem com a tecnologia. 
+
+
+
+
+
+🚀 Próximos Passos
+
+1. Prototipagem: Desenvolver um protótipo da aplicação utilizando as ferramentas mencionadas. 
+
+
+2. Testes Piloto: Implementar o protótipo em ambiente controlado com acompanhamento de profissionais da APAE. 
+
+
+3. Ajustes e Melhorias: Coletar feedbacks e realizar ajustes para melhor atender às necessidades das crianças. 
+
+
+4. Escalonamento: Expandir a aplicação para outras unidades da APAE e adaptar para diferentes faixas etárias e níveis de desenvolvimento. 
+
+
+
+.
