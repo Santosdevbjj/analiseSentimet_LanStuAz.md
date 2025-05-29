@@ -1,5 +1,8 @@
 ## Azure Machine Learning 
 
+![Screenshot_20250529-124310](https://github.com/user-attachments/assets/38e53b94-1925-4ad4-b1af-b610fc5a3fb3)
+
+
 
 
 Vamos imaginar que o **Azure Machine Learning** é o seu laboratório virtual na nuvem, onde toda a cadeia de desenvolvimento de modelos de machine learning é integrada em uma única plataforma. Em resumo, ele reúne desde a preparação e exploração de dados até o treinamento, a implantação e a manutenção dos modelos – facilitando a colaboração entre cientistas de dados, engenheiros de ML e outras equipes envolvidas no processo. Essa solução permite que você foque na modelagem e na inovação, sem se preocupar excessivamente com a infraestrutura subjacente[](https://azure.microsoft.com/pt-br/products/machine-learning/ "1").
